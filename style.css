@@ -1,0 +1,40 @@
+
+.bg-light {
+    background-color: #3E20B9 !important;
+}
+header{
+    background-color: #4521D6 !important;
+
+}
+
+.mb-4 {
+    margin-bottom: 0 !important;
+}
+.mb-lg-0{
+    margin-bottom: 0!important;
+    display: flex !important;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.bg-primary{
+    background-color: #3E20B9 !important;
+}
+.my-5 {
+    padding: 0;
+    margin: 0;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    max-width: 100% !important;
+}
+.title-footer {
+    font-weight: 600;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 15px;
+    text-transform: none;
+}
+.border-bottom {
+    border-bottom: 0px !important
+}
