@@ -1,4 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/*Header*/
 .bg-light {
     background-color: #3E20B9 !important;
 }
@@ -8,6 +15,10 @@ header{
 .link-dark {
     color: #ffffff;
 }
+
+
+
+/*Footer*/
 .mb-4 {
     margin-bottom: 0 !important;
 }
@@ -19,15 +30,9 @@ header{
     align-items: center;
 }
 .bg-primary{
-    background-color: #3E20B9 !important;
+    background-color: #202020 !important;
 }
-.my-5 {
-    padding: 0;
-    margin: 0;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    max-width: 100% !important;
-}
+
 .title-footer {
     font-weight: 600;
     color: white;
@@ -35,6 +40,9 @@ header{
     border-bottom: 1px solid #ffffff;
     margin-bottom: 15px;
     text-transform: none;
+}
+.text-center{
+    font-size: 14px;
 }
 .border-bottom {
     border-bottom: 0px !important
