@@ -4,9 +4,10 @@
 }
 header{
     background-color: #4521D6 !important;
-
 }
-
+.link-dark {
+    color: #ffffff;
+}
 .mb-4 {
     margin-bottom: 0 !important;
 }
