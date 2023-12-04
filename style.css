@@ -9,6 +9,23 @@ body {
     background-color: #3E20B9 !important;
 }
 
+.container-top{
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link:hover {
+    color: #888888;
+}
+
+.nav2{
+    background-color: #3E20B9 !important;
+    position: sticky;
+    z-index: 10001;
+    width: 100%;
+    top: 0px;
+}
+
 header {
     background-color: #4521D6 !important;
 }
@@ -16,18 +33,15 @@ header {
 .link-dark {
     text-align: center;
     color: #ffffff;
-    padding: ;
+    padding: 1;
 }
 
 .form-control {
     border-radius: 10px !important;
     background-clip:inherit;
-    border: 2px solid #d8d8d8;
+    border: 2px transparent !important;
 }
-.link-dark:focus, .link-dark:hover {
-    color: white;
-    border-bottom: 1px solid black;
-}
+
 
 
 /*Carousel*/
@@ -36,15 +50,7 @@ header {
     display: none;
     float: left;
     width: 100%;
-    height: 400px;
-    margin-right: -100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
     transition: transform .6s ease-in-out;
-}
-
-.carousel-item {
-    height: 400px;
 }
 
 
