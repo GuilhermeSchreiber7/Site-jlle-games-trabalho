@@ -8,30 +8,59 @@
   <title>Joinville Games</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <!-- Início do Header-->
-  <nav class="nav py-1 bg-light">
-    <div class="container container-top text-white d-flex flex-wrap">
-        <a href="#" class="nav-link link-dark px-2">Login</a>
-        <a href="#" class="nav-link link-dark px-2">Sign up</a>
+  <header id="header">
+    <div id="headerContatos">
+         <a href="#" id="btn-forms">Login</a>
     </div>
-  </nav>
-  <header class="py-3">
-    <div class="container d-flex flex-wrap justify-content-center">
-      <a href="#" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
-        <img src="imagens/logo_jllegames.png" alt="" width="210px" height="79px">
-      </a>
-      <form class="col-12 col-lg-auto mb-3 mb-lg-0">
-        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
-      </form>
-    </div>
+     <div class="container">
+        <div class="header-main">
+           <div class="titulo">
+              <a id="logo" href="index.html">
+                 <img id="img-logo" src="imagens/logo_jllegames.png" alt="logo">
+              </a>
+           </div>
+           <div class="open-nav-menu">
+              <span></span>
+           </div>
+           <div class="menu-overlay">
+           </div>
+           <!-- navigation menu start -->
+           <nav class="nav-menu">
+              <div class="close-nav-menu">
+                 <img src="imagens/close.svg" alt="close">
+              </div>
+              <ul class="menu">
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#" data-toggle="sub-menu">Empresa<i class="plus"></i></a>
+                    <ul class="sub-menu">
+                       <li class="menu-item"><a href="#">Missão</a></li>
+                       <li class="menu-item"><a href="#">Visão</a></li>
+                       <li class="menu-item"><a href="#">Valores</a></li>
+                    </ul>
+                 </li>
+                 <li class="menu-item menu-item-has-children">
+                    <a href="#" data-toggle="sub-menu">Linha de Produtos<i class="plus"></i></a>
+                    <ul class="sub-menu" id="settings">
+                       <li class="menu-item"><a href="#">TopAir</a></li>
+                       <li class="menu-item"><a href="#">TopHidro</a></li>
+                       <li class="menu-item"><a href="#">TopFire</a></li>
+                       <li class="menu-item"><a href="#">Ferramentas</a></li>
+                    </ul>
+                 </li>
+              </ul>
+           </nav>
+           <!-- navigation menu end -->
+        </div>
+     </div>
   </header>
-
-  <nav class="nav2 py-2 bg-light">
+  <nav class="nav2 py-2 text-white bg-light">
     <div class="container d-flex flex-wrap">
       <ul class="nav me-auto">
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2 active" aria-current="page">Home</a>
@@ -41,7 +70,6 @@
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">FAQs</a></li>
         <li class="nav-item"><a href="#" class="nav-link link-dark px-2">About</a></li>
       </ul>
-
     </div>
   </nav>
   <!-- Fim do Header-->
@@ -224,6 +252,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> 
+    <script src="javascript/js.js"></script>
 </body>
 
 </html>
